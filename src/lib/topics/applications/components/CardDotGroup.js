@@ -9,6 +9,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import 'pure-react-carousel/dist/react-carousel.es.css';
+
 import { Dot } from 'pure-react-carousel';
 import { Button, Container } from 'semantic-ui-react';
 

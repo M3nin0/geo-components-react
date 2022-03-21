@@ -31,7 +31,33 @@ const App = () => {
   ];
 
   return (
-    <RelatedApplicationCarousel relatedApplications={relatedApplications} />
+    <RelatedApplicationCarousel
+      relatedApplications={relatedApplications}
+      carouselProps={{
+        naturalSlideWidth: 2,
+        naturalSlideHeight: 1.5,
+        totalSlides: relatedApplications.length ,
+        visibleSlides: 2,
+        isPlaying: true,
+        interval: 5000, // ms
+        isIntrinsicHeight: true,
+        infinite: true
+      }}
+      cardGroupProps={{
+        slides: relatedApplications.length,
+      }}
+      cardCarouselProps={{
+        raised: true,
+        color: "blue",
+        centered: true,
+        fluid: false,
+        style: {
+          // Initial test style
+          width: "300px",
+          height: "150px",
+        },
+      }}
+    />
   );
 };
 

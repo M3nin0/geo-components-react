@@ -12,6 +12,8 @@ import PropTypes from 'prop-types';
 import { Card } from 'semantic-ui-react';
 import { Slide } from 'pure-react-carousel';
 
+import 'pure-react-carousel/dist/react-carousel.es.css';
+
 /**
  * Semantic UI Card component customized to `pure-react-carousel`
  *

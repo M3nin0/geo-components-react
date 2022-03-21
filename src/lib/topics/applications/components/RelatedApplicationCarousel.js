@@ -12,10 +12,10 @@ import PropTypes from 'prop-types';
 import { Icon, Card } from 'semantic-ui-react';
 import { Slider, CarouselProvider } from 'pure-react-carousel';
 
+import 'pure-react-carousel/dist/react-carousel.es.css';
+
 import { CardSlide } from './CardSlide';
 import { CardDotGroup } from './CardDotGroup';
-
-import 'pure-react-carousel/dist/react-carousel.es.css';
 
 /**
  * Related Application Carousel.
