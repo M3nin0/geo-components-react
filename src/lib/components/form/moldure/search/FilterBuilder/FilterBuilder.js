@@ -129,7 +129,7 @@ FilterBuilder.propTypes = {
 };
 
 FilterBuilder.defaultProps = {
-  modalTitle: i18next.t('Search filter'),
+  modalTitle: i18next.t('Search filters'),
   modalConfig: {},
   formInitialValues: {},
   serializerFieldTypeNames: {
